@@ -10,7 +10,7 @@ function readCookie(name) {
 }
 
 
-if (window.location.href  == "http://www.rabphaltt.bt/book_now"){
+if (window.location.href  == 'http://www.rabphaltt.bt/book_now/' || window.location.href  == 'http://www.rabphaltt.bt/book_now' || window.location.href  == 'https://www.rabphaltt.bt/book_now/' || window.location.href  == 'https://www.rabphaltt.bt/book_now'){
 	console.log("1");
 	 document.addEventListener("DOMContentLoaded", function(event) {
 		 console.log("2");
