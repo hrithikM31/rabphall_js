@@ -11,7 +11,9 @@ function readCookie(name) {
 
 
 if (window.location.href  == "http://www.rabphaltt.bt/book_now"){
+	console.log("1");
 	 document.addEventListener("DOMContentLoaded", function(event) {
+		 console.log("2");
 	      	var item = readCookie("Item");
 		document.cookie = "Item=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 		document.getELementById("nf-field-15").value = item;
